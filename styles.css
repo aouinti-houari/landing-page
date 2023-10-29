@@ -1,0 +1,143 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: content-box;
+}
+
+header,
+.hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 20px;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo {
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.hero-content .hero-text {
+  width: 30%;
+  padding-bottom: 50px;
+}
+
+.hero-content h1 {
+  color: #f9faf8;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.hero-content button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+}
+
+.information {
+  margin: 20px;
+}
+
+.information h2 {
+  text-align: center;
+}
+
+.elements {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.elements .element div {
+  width: 200px;
+  height: 200px;
+  border: solid 5px #3882f6;
+  border-radius: 15px;
+}
+
+.elements .element p {
+  width: 200px;
+}
+
+.quote-block {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote-block blockquote {
+  padding: 100px 200px;
+}
+
+.quote-block cite {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+aside {
+  display: block;
+  justify-content: space-around;
+  flex: auto;
+  background-color: #3882f6;
+  color: #f9faf8;
+  margin: 80px auto;
+  padding: 75px;
+  display: flex;
+  border-radius: 10px;
+}
+
+aside .content {
+  font-size: 24px;
+  line-height: 20px;
+}
+
+aside span {
+  display: inline-block;
+  text-align: center;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 1px solid #f9faf8;
+  border-radius: 10px;
+  padding: 10px 10px;
+  width: 100px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 40px;
+}
